@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestWidget</class>
+ <widget class="QWidget" name="TestWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>757</width>
+    <height>526</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+QSlider::groove:horizontal{
+background:#E4E4E4;
+height:8px;
+border-radius:4px;
+}
+
+QSlider::add-page:horizontal{
+background:#E4E4E4;
+height:8px;
+border-radius:4px;
+}
+
+QSlider::sub-page:horizontal{
+background:#A9A9A9;
+height:8px;
+border-radius:4px;
+}
+
+QSlider::handle:horizontal{
+width:15px;
+margin-top:-3px;
+margin-bottom:-3px;
+border-radius:6px;
+background:qradialgradient(spread:pad,cx:0.5,cy:0.5,radius:0.5,fx:0.5,fy:0.5,stop:0.6 #F0F0F0,stop:0.8 #A9A9A9);
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
